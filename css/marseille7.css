@@ -1,0 +1,118 @@
+.contain{
+	
+	background-color: rgb(78, 78, 250);
+	font-size: x-large;
+	box-sizing: border-box;
+width: 100%;
+border: solid #b1b5cf 10px;
+padding: 5px;
+}
+
+
+input, select, textarea {
+    margin: 0.33% 0;
+	width:10%
+}
+label{
+    float: left;
+    display: block;
+    width: 100px;
+}
+
+/*TEST*/
+.form{
+	display: block;
+	animation-duration: 4s;
+	animation-name: apparition;
+	animation-timing-function: ease;
+	justify-content: center;
+}
+
+input:focus, select:focus, textarea:focus  {
+	animation-duration: 2s;
+	animation-name: glissade;
+	animation-fill-mode: forwards; 
+	animation-delay: 250ms;
+	animation-timing-function: ease;
+	margin-left: auto;
+    margin-right: auto 
+}
+
+  @keyframes apparition {
+
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+
+@keyframes glissade {
+from{
+	width: 10%;
+}
+to{
+	width: 25%;
+}
+ 
+}
+  #defil {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	
+
+  }
+
+
+
+/*@keyframes rsociaux {
+	0% {
+		left: 0px;
+	}
+	15% {
+		left: 0px;
+	}
+	35% {
+		left: -150px; 
+	}
+	50% {
+		left: -150px; 
+	}
+	70% {
+		left: -300px;
+	}
+	85% {
+		left: -300px; 
+	}
+	85.01% {
+		left: 0px; 
+	}
+}
+
+#defil {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin:  20px auto;
+	overflow: hidden;
+}
+#image, li {
+	display: inline;
+}
+
+#image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	margin: 0;            
+	padding: 0;
+	animation-name: rsociaux;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+*/
