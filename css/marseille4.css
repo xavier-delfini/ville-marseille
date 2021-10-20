@@ -1,0 +1,19 @@
+body{
+    background-color: #00FFFF ;
+}
+blockquote {
+    padding: 3%;
+    background: rgb(66, 115, 221);
+    border-radius: 5px;
+
+}
+.photos1{
+    display: flex;
+     justify-content: space-around;
+     
+     }
+.Plage{
+    
+    text-align: center;
+}
+
