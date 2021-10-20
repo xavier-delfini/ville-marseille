@@ -3,8 +3,8 @@ body{
 }
 blockquote {
     padding: 3%;
-    background: rgb(66, 115, 221);
-    border-radius: 5px;
+    background:rgba(235, 221, 221, 0.705);
+    border: 0ch;
     animation-duration: 10s;
     animation-name: slidein;
 }
