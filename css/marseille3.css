@@ -1,0 +1,87 @@
+.up-contain{
+    display: flex;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px;
+}
+.contain{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.sub-contain li{
+    list-style: none;
+    margin: 0 5% 0 1%;
+}
+p, .contain li {
+margin: 0 40%;
+font-size: 1.10em
+}
+
+.contain:nth-child(odd){
+    color: black;
+    }
+
+    .contain:nth-child(even){
+        background-color: rgb(255, 255, 255);
+        color: black;
+        }
+
+        #defil {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            margin:  20px auto;
+            overflow: hidden;
+        }
+        #image li {
+            display: inline;
+        }
+        
+        #image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 930px;
+            margin: 0;            
+            padding: 0;
+            animation-name: diapo;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes diapo {
+            0% {
+                left: 0px;
+            }
+            15% {
+                left: 0px;
+            }
+            35% {
+                left: -310px; 
+            }
+            50% {
+                left: -310px; 
+            }
+            70% {
+                left: -620px;
+            }
+            85% {
+                left: -620px; 
+            }
+            100% {
+                left: 0px; 
+            }
+        }
+        
+        .taille{
+            width: 300px;
+            height: 200px;
+        }
+
+        .lcolor{
+            color: FF0000
+        }
