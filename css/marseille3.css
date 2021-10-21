@@ -24,7 +24,7 @@ font-size: 1.10em
     color: black;
     }
 
-    .contain:nth-child(even){
+    #defil:nth-child(even),.contain:nth-child(even){
         background-color: rgb(255, 255, 255);
         color: black;
         }
@@ -83,5 +83,5 @@ font-size: 1.10em
         }
 
         .lcolor{
-            color: FF0000
+            color: #FF0000
         }
