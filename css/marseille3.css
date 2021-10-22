@@ -2,6 +2,11 @@
     .up-contain{
         display: flex;
         box-shadow: rgba(0, 0, 0, 0.5) 3px 3px;
+        
+    }
+    .head{
+        align-items: center;
+        
     }
     .contain{
         display: flex;
@@ -11,20 +16,32 @@
     }
     .sub-contain li{
         list-style: none;
-        margin: 0 0 0 ;
+       
     }
     p, .contain li {
-        margin: 0 40%;
+    
         font-size: 1.10em
     }
+    p, .contain li:nth-child(even) {
+    margin: 0 40%;
+    }
+    .head{
+        text-align: center;
+    }
+
+p:nth-child(odd), .contain li:nth-child(odd) {
+    margin: 0 20%;
+
+}
+
 
 /*Couleurs*/
 
-    .up-contain:nth-child(odd){
+    .up-contain:nth-child(even){
             color: black;
             background-color:#235789;
     }
-    .up-contain:nth-child(even){
+    .up-contain:nth-child(odd){
         background-color: #FFF;
         color: black;
     }

@@ -1,12 +1,9 @@
-.contain{
-	
-	background-color: rgb(78, 78, 250);
-	font-size: x-large;
-	box-sizing: border-box;
-width: 100%;
-border: solid #b1b5cf 10px;
-padding: 5px;
+body{
+	background-image: url(../img/marseille7_background.jpg);
 }
+
+
+
 
 .rsociaux{
 	width: 75px;
@@ -18,8 +15,27 @@ input, select, textarea {
 }
 label{
     float: left;
-    display: block;
+    width: 70%;
     width: 100px;
+	
+	
+}
+
+.contain{
+	
+	background-color: #E1CDB5;
+	font-size: x-large;
+	opacity: 0.5 ;
+	
+
+	margin: 2%;
+}
+
+
+
+#button{
+background-color: #e7e7e7;
+border-radius: 8px;
 }
 
 /*TEST*/
@@ -29,6 +45,7 @@ label{
 	animation-name: apparition;
 	animation-timing-function: ease;
 	justify-content: center;
+	background-color: rgb(139, 204, 206);
 }
 
 input:focus, select:focus, textarea:focus  {
@@ -38,7 +55,7 @@ input:focus, select:focus, textarea:focus  {
 	animation-delay: 250ms;
 	animation-timing-function: ease;
 	margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
 }
 
 @keyframes apparition {
@@ -65,53 +82,3 @@ to{
 	width: 150px;
 	height: 150px;
 }
-
-/*@keyframes rsociaux {
-	0% {
-		left: 0px;
-	}
-	15% {
-		left: 0px;
-	}
-	35% {
-		left: -150px; 
-	}
-	50% {
-		left: -150px; 
-	}
-	70% {
-		left: -300px;
-	}
-	85% {
-		left: -300px; 
-	}
-	85.01% {
-		left: 0px; 
-	}
-}
-
-#defil {
-	position: relative;
-	width: 150px;
-	height: 150px;
-	margin:  20px auto;
-	overflow: hidden;
-}
-#image, li {
-	display: inline;
-}
-
-#image {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 450px;
-	margin: 0;            
-	padding: 0;
-	animation-name: rsociaux;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-}
-
-*/
