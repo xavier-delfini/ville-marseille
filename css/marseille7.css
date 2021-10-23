@@ -1,0 +1,84 @@
+body{
+	background-image: url(../img/marseille7_background.jpg);
+}
+
+
+
+
+.rsociaux{
+	width: 75px;
+}
+
+input, select, textarea {
+    margin: 0.33% 0;
+	width:10%
+}
+label{
+    float: left;
+    width: 70%;
+    width: 100px;
+	
+	
+}
+
+.contain{
+	
+	background-color: #E1CDB5;
+	font-size: x-large;
+	opacity: 0.5 ;
+	
+
+	margin: 2%;
+}
+
+
+
+#button{
+background-color: #e7e7e7;
+border-radius: 8px;
+}
+
+/*TEST*/
+.form{
+	display: block;
+	animation-duration: 4s;
+	animation-name: apparition;
+	animation-timing-function: ease;
+	justify-content: center;
+	background-color: rgb(139, 204, 206);
+}
+
+input:focus, select:focus, textarea:focus  {
+	animation-duration: 2s;
+	animation-name: glissade;
+	animation-fill-mode: forwards; 
+	animation-delay: 250ms;
+	animation-timing-function: ease;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes apparition {
+
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+
+@keyframes glissade {
+from{
+	width: 10%;
+}
+to{
+	width: 25%;
+}
+ 
+}
+#defil {
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
