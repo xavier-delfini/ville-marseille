@@ -43,3 +43,7 @@ blockquote {
     display: flex;
     flex-direction: column;
   }
+
+  .rsociaux{
+    width: 75px;
+  }
