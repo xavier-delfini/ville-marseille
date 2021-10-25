@@ -1,3 +1,151 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(19, 187, 187);
+    margin: 0;
+    padding:0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav{
+    height: 220px;
+    width: 100%;
+    background-image: url(https://img.freepik.com/vecteurs-libre/decrire-toits-ville-marseille-france-batiments-bleus-illustration-vectorielle-concept-voyage-affaires-tourisme-architecture-historique-paysage-urbain-marseille-points-repere_119523-1799.jpg?size=626&ext=jpg);
+}
+
+nav img{
+    border-radius: 40px;
+    padding: 2px 10px;
+    margin: 3px;
+    border: none;
+}
+
+nav > ul{
+    height: 59px;
+    background-color: rgb(7, 92, 145);
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+
+nav > ul > li > a{
+    padding: 20px 30px;
+    color:cornsilk;
+}
+
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+nav li{
+    list-style: none;
+}
+
+
+
+.submenu{
+    display: none;
+}
+
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: rgb(15, 15, 15);
+}
+nav li:hover .submenu{
+display: inline-block;
+position: absolute;
+top: 100%;
+left: 0px;
+padding: 0px;
+z-index: 1000;
+}
+
+
+.submenu li a{
+    margin-top: 5px;
+    padding: 15px 30px;
+    font-size: 13px;
+    color: darkgoldenrod;
+    width: 270px;
+}
+
+.Menu-Histoire:hover{
+    border-top: 3px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+
+.Menu-Randonné3:hover{
+    border-top: 3px solid #2639e4;
+    background-color: rgba(000, 112, 192, 0.15);
+
+}
+
+
+.Menu-Plage4:hover{
+    border-top: 3px solid #26e43f;
+    background-color: rgba(241, 211, 79, 0.15);
+
+}
+
+.Menu-Parcs5:hover{
+    border-top: 3px solid #9e242a;
+    background-color: rgba(221, 186, 29, 0.15);
+
+}
+
+.Menu-Musée6:hover{
+    border-top: 3px solid #05420d;
+    background-color: rgba(241, 184, 79, 0.15);
+
+}
+.Menu-Contact7:hover{
+    border-top: 3px solid #e426c4;
+    background-color: rgba(79, 230, 241, 0.15);
+
+}
+
+.Menu-Histoire .submenu{
+    margin-top: 1px;
+}
+header{
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+
+header img{
+    background-image: url(https://www.marseille.fr/sites/default/files/contenu/mairie/vue-generale-de-marseille_1920x600.jpg); 
+    width: 100%;
+    height:500px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+
+
+
 .contain{
 	
 	background-color: rgb(78, 78, 250);
@@ -44,12 +192,12 @@ input:focus, select:focus, textarea:focus  {
 @keyframes apparition {
 
 	0% {
-	  opacity: 0;
+	opacity: 0;
 	}
 	100% {
-	  opacity: 1;
+	opacity: 1;
 	}
-  }
+}
 
 @keyframes glissade {
 from{
@@ -58,7 +206,7 @@ from{
 to{
 	width: 25%;
 }
- 
+
 }
 #defil {
 	position: relative;
@@ -66,7 +214,7 @@ to{
 	height: 150px;
 }
 
-/*@keyframes rsociaux {
+@keyframes rsociaux {
 	0% {
 		left: 0px;
 	}
@@ -111,4 +259,3 @@ to{
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
 }
-*/

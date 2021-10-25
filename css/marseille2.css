@@ -162,6 +162,10 @@ section img{
     margin-right: auto;
 }
 
+.rsociaux{
+	width: 75px;
+}
+
 footer{
     font-family: 'Cormorant Garamond', serif;
     border-top: 1px dashed rgb(14, 120, 134);
