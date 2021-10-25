@@ -34,11 +34,12 @@ blockquote {
     display: flex;
     flex-direction: column;
   }
+/*troisième description parcs*/ 
 .yolo3{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-
+/*troisième liste parcs*/ 
 .liste3{
     display: flex;
     flex-direction: column;
