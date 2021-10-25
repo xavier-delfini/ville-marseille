@@ -16,20 +16,19 @@
     }
     .sub-contain li{
         list-style: none;
-       
     }
-    p, .contain li {
+    .contain p, .contain li {
     
         font-size: 1.10em
     }
-    p, .contain li:nth-child(even) {
+    .contain p, .contain li:nth-child(even) {
     margin: 0 40%;
     }
-    .head{
+    #titre{
         text-align: center;
     }
 
-p:nth-child(odd), .contain li:nth-child(odd) {
+.contain p:nth-child(odd), .contain li:nth-child(odd) {
     margin: 0 20%;
 
 }
@@ -61,7 +60,7 @@ p:nth-child(odd), .contain li:nth-child(odd) {
         display: inline;
     }
     #image {
-        position: absolute;
+        
         top: 0;
         left: 0;
         width: 930px;
