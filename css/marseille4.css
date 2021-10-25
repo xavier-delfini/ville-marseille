@@ -34,7 +34,9 @@ blockquote {
 .liste {
     text-align: center;
 }
-
+Main{
+  margin-top: 45px;
+}
 
 .rsociaux{
 	width: 75px;
