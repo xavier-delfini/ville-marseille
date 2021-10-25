@@ -149,17 +149,46 @@ header img{
     padding: 0;
 }
 
+section{
+    margin-bottom: 16px;
+}
+
+
 section h1{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(20, 19, 19);
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
 }
+section h2{
+    font-size:19px;
+    text-decoration: 2px underline;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+section h3{
+    font-size:21px;
+    text-decoration: underline;
+    font-family: 'Russo One', sans-serif;
+}
+
+section h6{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top:8px;
+    font-size: 14px;
+}
+
 section img{
     display: block;
     height: 170px;
     width: 550px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 .rsociaux{
@@ -180,6 +209,6 @@ footer{
     flex: 1 0 auto;
     font-size: 18px;
     text-align: center;
-    margin-top: 55px;
+    margin-top:5px;
     
 }
