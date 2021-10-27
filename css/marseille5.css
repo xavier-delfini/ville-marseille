@@ -1,0 +1,42 @@
+/*Parcs publics*/
+
+/*couleur arrière plan*/
+body{
+  background-color: #0c77be ;
+}
+
+/*Alignement photos*/  
+.photos1{
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Blocks*/
+blockquote {
+  padding: 3%;
+  background: linear-gradient(#2a88be,#00FFFF);
+  border: 0ch;
+}
+
+/*Liste parcs */
+.liste{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/*première description parcs*/ 
+.yolo{
+  margin-top: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+/*Suppression puces ul*/
+ul {
+  list-style-type: none;
+}
+
+.rsociaux{
+width: 75px;
+}
