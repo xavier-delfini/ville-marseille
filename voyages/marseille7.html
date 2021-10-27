@@ -5,11 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulaire de contact</title>
     <link rel="stylesheet" href="../css/marseille.css">
     <link rel="stylesheet" href="../css/marseille7.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!--Début Barre de Naviguation --->
+    <nav>
+        <div>
+            <a href="marseille.html"><img src="https://image.noelshack.com/fichiers/2021/42/3/1634684924-capture1.png" alt="Logo Marseille" width="145px" height="145px"></a>
+        </div>
+        <ul>
+            <li class="Menu-Histoire"> <a href="marseille2.html">Histoire</a>
+                <ul class="submenu">
+                    <li><a href="marseille2.html">Histoire de Marseille</a></li>
+                    <li><a href="marseille6.html">Musée</a></li>
+                </ul>
+            </li>
+            <li class="Menu-Randonné3"> <a href="marseille3.html">Nature et plage</a>
+                <ul class="submenu">
+                    <li><a href="marseille3.html">Randonnée</a></li>
+                    <li><a href="marseille4.html">Plage</a></li>
+                    <li><a href="marseille5.html">Parcs</a></li>
+                </ul>
+            </li>
+            <li class="Menu-Contact7"> <a href="marseille7.html">Contact</a></li>
+        </ul>
+    </nav> 
+    <!--Fin Barre de Navigation-->
+
+    <div class="contain">
+        <div class="text">
+            <h2> Vous avez des questions, des remarques ou des suggestions ?</h2>
+            <h2>Merci de nous les adresser via le formulaire suivant</h2>
+        </div>
+    </div>
+    <!--Formulaire-->
+    <div class="contain">
+        <form class="form" method="post">
+            <label for="nom">Nom:</label> <input type="text" minlength="2" maxlength="128" required></br>
+            <label for="prenom">Prénom:</label> <input type="text" minlength="2" maxlength="128"  id="fname" required></br>
+            <label for="mail">E-Mail:</label> <input type="email" minlength="5" maxlength="256" required></br>
+            <label for="message">Message:</label> <textarea style="resize: none" name="" id="" cols="30" rows="10" minlength="2" maxlength="512" required></textarea></br>
+            <button type="submit" id="button">Envoyer</button>
+        </form>
+    </div>
+    <!--Footer-->
+    <footer>   
+        <h3>Contact</h3>
+        <p>Tel: 0487546547</p>
+        <p>Emails: Marseille13@laplateforme.io</p>
+        <p>Adresse: 8 Rue d'Hozier</p>
+        <p>Ville: Marseille 13002</p>
+        <h3>Services</h3>
+        <p>Ou alors contactez-nous via nos réseaux sociaux</p>
+        <a href="https://facebook.com/marseilleville/?locale2=fr_FR" target="blank" ><img src="../img/facebook.png" class="rsociaux"></a>
+        <a href="https://twitter.com/marseille" target="blank" ><img src="../img/twitter.png" class="rsociaux"></a>
+        <hr style="height: 1px; color: rgb(22, 172, 177); width: 100%; border: 1px straight #000;">
+        <p>Copyright © 2021-2022 </p>
+        <p>All rights reserved.</p>
+        <p>Created by DreamCod !</p>
+    </footer>
 </body>
 </html>
